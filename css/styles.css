@@ -419,7 +419,7 @@ body {
     /*MainContent*/
 
     .footer {
-        top: 200% !important;
+        top: 318% !important;
     }
 }
 
@@ -441,28 +441,24 @@ body {
     display: flex;
     flex-direction: column;
     width: 70%;
+    float: right;    
+}
+
+.content1 {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
     float: right;
     height: 100vh;
 }
-
     .content div {
         background: #a53f3f;
         color: white;
     }
-
-.row {
-    border: 5px solid #808080;
-    margin: 30px 25px 30px 25px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    border-radius: 35px;
-    width: 90%;
-    height: 100%;
-    animation-name: move1;
-    animation-duration: 7s;
-    animation-iteration-count: 1;
-}
+    .content1 div {
+        background: #a53f3f;
+        color: white;
+    }
 
 .row1 {
     border: 5px solid #808080;
@@ -540,11 +536,23 @@ body {
 
 .second-screen {
     position: absolute;
-    background: #545456;
-    height: 100vh;
+    background: #545456;   
     width: 100%;
     top: 100%;
     right: 0;
+}
+.row {
+    border: 5px solid #808080;
+    margin: 30px 25px 30px 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 35px;
+    width: 90%;
+    height: 100%;
+    animation-name: move1;
+    animation-duration: 7s;
+    animation-iteration-count: 1;
 }
 .holder {
     width: 25%;    
@@ -573,7 +581,7 @@ body {
 .footer {
     position: absolute;
     left: 0;
-    top: 200%;
+    top: 190%;
     bottom: 0;
     width: 99.23%;
     border: 5px solid #808080;
