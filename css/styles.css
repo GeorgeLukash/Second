@@ -584,6 +584,17 @@ body {
     }
 /*========.Content========*/
 /*========Footer========*/
+
+
+.row-foot {
+    clear: both;
+    width: 99.23%;
+    border: 5px solid #808080;
+    border-radius: 0 0 15px 15px;
+    background: #d2d2d9;
+    height: 180px;
+}
+
 .footer {
     position: absolute;
     left: 0;
