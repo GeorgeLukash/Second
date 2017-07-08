@@ -9,10 +9,10 @@ html {
 
 body {
     height: 100%;
-    background: #fff;
     min-width: 980px;
     max-width: 1200px;
     margin: 0 auto;
+    background: #d2d2d9;
 }
 
 .wrapper {
@@ -247,7 +247,7 @@ body {
 @media(max-width:1000px) {
     body {
         height: 100%;
-        background: #fff;
+        background: #d2d2d9;
         min-width: 280px;
         max-width: 980px;
         margin: 0 auto;
@@ -256,6 +256,7 @@ body {
     .header-menu {
         margin: 125px 0 0 270px !important;
     }
+
     .header-menu {
         list-style: none;
         margin: 120px 0 0 380px;
@@ -377,7 +378,7 @@ body {
     /*SideMenu*/
     /*MainContent*/
     .content {
-        width: 100%;        
+        width: 100%;
     }
 
     .row {
@@ -385,16 +386,16 @@ body {
         margin: 80px 0 30px -167px !important;
         width: 120% !important;
         animation-name: move2 !important;
-        height:100vh!important;
+        height: 100vh !important;
     }
 
     .holder {
         background: black;
         width: 90% !important;
         word-wrap: break-word;
-        height:30vh;
+        height: 30vh;
         margin: 30px auto;
-        overflow: auto;
+        overflow: hidden;
         padding: 25px 10px;
         text-align: justify;
         line-height: 1.2;
@@ -419,7 +420,7 @@ body {
     /*MainContent*/
 
     .footer {
-        top: 318% !important;
+        top: 330% !important;
     }
 }
 
@@ -441,7 +442,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 70%;
-    float: right;    
+    float: right;
 }
 
 .content1 {
@@ -451,14 +452,16 @@ body {
     float: right;
     height: 100vh;
 }
-    .content div {
-        background: #a53f3f;
-        color: white;
-    }
-    .content1 div {
-        background: #a53f3f;
-        color: white;
-    }
+
+.content div {
+    background: #a53f3f;
+    color: white;
+}
+
+.content1 div {
+    background: #a53f3f;
+    color: white;
+}
 
 .row1 {
     border: 5px solid #808080;
@@ -474,18 +477,18 @@ body {
     animation-iteration-count: 1;
 }
 
-.row1 div {
-    background: black;
-    width: 25%;
-    height: 50vh;
-    word-wrap: break-word;
-    margin: 30px auto;
-    overflow: auto;
-    padding: 10px 10px 25px 10px;
-    text-align: justify;
-    line-height: 1.2;
-    border-radius: 15px;
-}
+    .row1 div {
+        background: black;
+        width: 25%;
+        height: 50vh;
+        word-wrap: break-word;
+        margin: 30px auto;
+        overflow: auto;
+        padding: 10px 10px 25px 10px;
+        text-align: justify;
+        line-height: 1.2;
+        border-radius: 15px;
+    }
 
 .img-holder-one {
     margin-top: 100px !important;
@@ -536,11 +539,12 @@ body {
 
 .second-screen {
     position: absolute;
-    background: #545456;   
+    background: #545456;
     width: 100%;
     top: 100%;
     right: 0;
 }
+
 .row {
     border: 5px solid #808080;
     margin: 30px 25px 30px 25px;
@@ -554,18 +558,20 @@ body {
     animation-duration: 7s;
     animation-iteration-count: 1;
 }
+
 .holder {
-    width: 25%;    
+    width: 25%;
     padding: 10px 10px 25px 10px;
     text-align: justify;
     line-height: 1.2;
     border-radius: 30px;
 }
+
 .img-holder-main {
     border: 2px solid #d2d2d9;
     background: black !important;
     margin: 30px auto;
-    overflow: auto;
+    overflow: hidden;
     /*width: 70% !important;*/
     border-radius: 100px !important;
     /*padding-top: 25px !important;*/
@@ -574,14 +580,14 @@ body {
     .img-holder-main img {
         width: 100%;
         height: 100%;
-        padding-top:5px;
+        padding-top: 5px;
     }
 /*========.Content========*/
 /*========Footer========*/
 .footer {
     position: absolute;
     left: 0;
-    top: 190%;
+    top: 200%;
     bottom: 0;
     width: 99.23%;
     border: 5px solid #808080;
