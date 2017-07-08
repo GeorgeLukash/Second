@@ -595,7 +595,7 @@ body {
     height: 180px;
 }
 
-.footer {
+/*.footer {
     position: absolute;
     left: 0;
     top: 200%;
@@ -605,7 +605,7 @@ body {
     border-radius: 0 0 15px 15px;
     background: #d2d2d9;
     height: 180px;
-}
+}*/
 
 .first-part {
     height: 100px;
